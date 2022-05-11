@@ -1,0 +1,15 @@
+.maintxt {
+    background-image: url("want_more_small.jpg");
+    background-size: cover;
+    background-color: transparent;
+    color: white;
+    min-height: 900px;
+}
+
+
+.bluetext{
+    color:blue;
+    background-color: aquamarine;
+}
+
+
