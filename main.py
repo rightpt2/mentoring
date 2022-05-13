@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, request
 
 app = Flask("__main__")
@@ -16,4 +17,4 @@ def mentee():
     return render_template('mentee.html')
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=False, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
